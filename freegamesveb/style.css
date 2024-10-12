@@ -1,0 +1,183 @@
+body {
+  background: #3d4773;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navigation {
+  
+  text-align: end;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  
+}
+.navigation input {
+  border-radius: 999px;
+  border: none;
+  padding: 10px 20px;
+
+
+
+  
+}
+
+
+
+
+.search-wrraper  {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-right: 20px;
+
+  
+}
+.search-wrraper-icon  {
+  width: 24px;
+  height: 24px;
+  right: 20px;
+  position: absolute;
+}
+.navigation input:focus{outline: none;}
+
+.navigation h1:hover {
+  color: #000000;
+}
+
+.message h1 {
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.far img {
+  height: 70px;
+  width: 70px;
+}
+
+.red img {
+  margin: 0px;
+  padding: 0px;
+  width: 25px;
+  height: 100%;
+  background-color: #000000;
+}
+
+.navigation h1 {
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+}
+
+.logo  {
+  width: 150px;
+  height: 150px;
+}
+
+
+
+
+.raven img {
+  width: 250px;
+  height: 375px;
+}
+
+.need h1 {
+  font-family: Roboto, sans-serif;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 10px;
+  justify-items: center;
+}
+
+.card {
+  display: flex;
+  border-radius: 30px;
+  display: flex;
+  overflow: hidden;
+  width: 320px;
+  flex-direction: column;
+  position: relative;
+  height: 430px;
+  
+
+}
+
+
+
+
+
+
+  
+
+
+.card-description {
+  background-color: #e48719;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.btn { 
+  text-decoration: none; 
+  border: 2px solid #000000; 
+  border-radius: 999px; 
+  padding: 10px 20px; 
+  text-transform: uppercase; 
+  font-weight: 700; 
+  color: black; 
+  transition: all 400ms ease; 
+} 
+ 
+.btn:hover { 
+  background-color: #000000; 
+  color: white; 
+}
+.card img {
+  width: 100%;
+  transition: scale 400ms ease;
+}
+.card img:hover{scale: 1.1;}
+
+.main-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  align-items: baseline;
+  align-items: baseline;
+}
+
+.hello h1 {
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+
+.hello h1 {
+  color: #ffffff;
+}
